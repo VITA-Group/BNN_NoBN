@@ -14,7 +14,7 @@ Batch normalization (BN) is a key facilitator and considered essential for state
 
 Inspired by the latest advance on Batch Normalization Free (BN-Free) training, we extend their framework to training BNNs, and for the first time demonstrate that BNs can be completed removed from BNN training and inference regimes. By plugging in and customizing techniques including adaptive gradient clipping, scale weight standardization, and specialized bottleneck block, a **BN-free BNN** is capable of maintaining competitive accuracy compared to its BN-based counterpart. Experimental results can be found in [our paper]().
 
-<img src = "Figs/res.png" align = "center" width="60%" hight="60%">
+<img src = "Figs/res.png" align = "center" width="50%" hight="60%">
 
 
 
