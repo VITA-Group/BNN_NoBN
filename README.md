@@ -47,11 +47,13 @@ timm == 0.4.5
 ## Citation
 
 ```
-@article{gaur2020training,
-  title={Training Deep Neural Networks Without Batch Normalization},
-  author={Gaur, Divya and Folz, Joachim and Dengel, Andreas},
-  journal={arXiv preprint arXiv:2008.07970},
-  year={2020}
+@misc{chen2021bnn,
+      title={"BNN - BN = ?": Training Binary Neural Networks without Batch Normalization}, 
+      author={Tianlong Chen and Zhenyu Zhang and Xu Ouyang and Zechun Liu and Zhiqiang Shen and Zhangyang Wang},
+      year={2021},
+      eprint={2104.08215},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
 }
 ```
 
