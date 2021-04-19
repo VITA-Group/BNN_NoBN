@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Codes for this paper [BNN - BN = ? Training Binary Neural Networks without Batch Normalization](). [CVPR BiVision Workshop 2021]
+Codes for this paper [BNN - BN = ? Training Binary Neural Networks without Batch Normalization](https://arxiv.org/pdf/2104.08215.pdf). [CVPR BiVision Workshop 2021]
 
 Tianlong Chen, Zhenyu Zhang, Xu Ouyang, Zechun Liu, Zhiqiang Shen, Zhangyang Wang.
 
