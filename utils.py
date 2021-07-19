@@ -231,25 +231,25 @@ def setup_model_dataloader(args):
             print('* Binarize both activation and weights')
             if args.bn_type == 'bn':
                 print('* with BN')
-                model = Qaw_reactnet_18_bn(num_classes=classes)
+                model = Qaw_reactnet_18_bn(num_classes=classes, imagenet=if_imagenet)
             elif args.bn_type == 'none':
                 print('* without BN')
-                model = Qaw_reactnet_18_none(num_classes=classes)
+                model = Qaw_reactnet_18_none(num_classes=classes, imagenet=if_imagenet)
             elif args.bn_type == 'bf':
                 print('* BN-Free')
-                model = Qaw_reactnet_18_bf(num_classes=classes)
+                model = Qaw_reactnet_18_bf(num_classes=classes, imagenet=if_imagenet)
 
         else:
             print('* Binarize only activation')
             if args.bn_type == 'bn':
                 print('* with BN')
-                model = Qa_reactnet_18_bn(num_classes=classes)
+                model = Qa_reactnet_18_bn(num_classes=classes, imagenet=if_imagenet)
             elif args.bn_type == 'none':
                 print('* without BN')
-                model = Qa_reactnet_18_none(num_classes=classes)
+                model = Qa_reactnet_18_none(num_classes=classes, imagenet=if_imagenet)
             elif args.bn_type == 'bf':
                 print('* BN-Free')
-                model = Qa_reactnet_18_bf(num_classes=classes)
+                model = Qa_reactnet_18_bf(num_classes=classes, imagenet=if_imagenet)
 
 
     elif args.arch == 'reactnet-A':
